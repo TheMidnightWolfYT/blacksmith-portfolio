@@ -1,0 +1,103 @@
+body {
+    background-color: #1a1a1a; /* Dark background */
+    color: #ddd; /* Light text color */
+    font-family: Arial, sans-serif;
+}
+
+a {
+    color: #f0ad4e; /* Metallic tone for links */
+}
+
+a:hover {
+    color: #e09d4d;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #333;
+}
+
+/* Section Styling */
+section {
+    padding: 40px 0;
+    border-bottom: 1px solid #444;
+}
+
+section h2 {
+    color: #f0ad4e;
+    margin-bottom: 20px;
+}
+
+/* Gallery Section */
+#gallery div {
+    margin-bottom: 15px;
+}
+
+#gallery img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #555;
+}
+
+/* Services Section */
+.service-item {
+    border: 1px solid #ccc;
+    background-color: #282828;
+    padding: 15px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.service-item h3 {
+    color: #f0ad4e;
+}
+
+.service-item button {
+    background-color: #f0ad4e;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.service-item button:hover {
+    background-color: #e09d4d;
+}
+
+/* Contact Form */
+form {
+    background-color: #282828;
+    padding: 20px;
+    border: 1px solid #444;
+}
+
+.form-group label {
+    color: #ddd;
+}
+
+.form-control {
+    background-color: #333;
+    color: #ddd;
+    border: 1px solid #444;
+}
+
+.btn-primary {
+    background-color: #f0ad4e;
+    border-color: #e09d4d;
+}
+
+.btn-primary:hover {
+    background-color: #e09d4d;
+    border-color: #f0ad4e;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .form-control, .btn {
+        width: 100%;
+    }
+}
